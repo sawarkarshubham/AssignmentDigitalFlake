@@ -1,0 +1,286 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.routeapp{
+  flex: content;
+  background: azure;
+  margin-left: 250px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+display: flex;
+}
+
+/* .title{
+align-items: inline;
+position: absolute;
+width: 1628px;
+height: 118px;
+left: 0px;
+top: 0px;
+color: white;
+background: #662671;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.title-h{
+  padding-left: 80px;
+} */
+
+.title{
+  padding: 0;
+  height: 100px;
+  display: flex;
+  
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  align-self: center;
+  font-size: x-large;
+  padding-left: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: white;
+background: #662671;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.card{
+  padding: 20px;
+
+  background-color:palevioletred;
+  margin-top: 118px;
+  margin-left: 300px;
+  height:600px;
+  width: 1360px;
+}
+
+.nav-div{
+  display: flex;
+
+position: absolute;
+left: 0%;
+margin-top: 109px;
+/* height: 100vh; */
+right: 0%;
+top: 0%;
+bottom: 0%;
+width: 250px;
+font-size: large;
+font-weight: 10px;
+background: #F4F4F4;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+/* height:600px; */
+}
+.nav-ul li{
+  /* display: inline-block; */
+  padding: 10px;
+  /* border: 1px solid rgb(204, 195, 195); */
+}
+.nav-ul a{
+  color: black;
+  padding: 30px;
+  font-size: x-large;
+  font-weight: 30px;
+  text-decoration: none;
+
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+}
+.nav-ul {
+  text-align: left;
+  padding-left: 150px;
+  padding: 0px;
+  background-color: #F4F4F4;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+}
+/* .sidebar{
+  display: flex;
+  height: 100vh;
+} */
+.signHeader{
+margin-left: 20px;
+}
+.signButton, .btn {    
+  border-radius: 10px;                                                                                                                                                                                                                                                                                                                      
+  margin: 25px;
+  padding: 10px;
+  width: 313px;
+  border: 5px solid skyblue;
+  /* background-color: rgb(82, 82, 230); */
+  background-color: #662671;
+  color: white;
+  border: 2px solid;
+  font-weight: 100px;
+  font-size: larger;
+  cursor: pointer;
+}
+.register{
+  display: flexbox;
+  padding-left: 400px;
+  
+  /* margin-top: 200px;
+  margin-left: 500px; */
+  align-items: center;
+
+}
+.addproduct{
+  /* margin-top: 200px;
+  margin-left: 500px; */
+  align-items: center;
+}
+
+
+
+.bg-img{
+  background-image: url(./Component/shubhamLogo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 20%;
+  position: absolute;
+width: 1407px;
+height: 100vh;
+left: 0px;
+top: -59px;
+  
+}
+
+.home-Img{
+  background-image: url(./Component/shubhamLogo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+  position: absolute;
+
+left: 0px;
+top: -59px;
+  
+}
+
+.HomePage{
+  align-items: flex-start;
+  /* margin-top: 200px; */
+  /* margin-left: 500px; */
+}
+
+.productList{
+  /* margin-top: 300px;
+  margin-left: 270px; */
+  text-align: left;
+  align-items: center;
+
+  margin-top:50px ;
+}
+.productList ul li{
+
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.productList ul{
+  margin: 0;
+  
+}
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+.invalidInput{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.delete-btn{
+  background-color: red;
+  padding: 2px;
+  margin: 8px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  
+  border: 2px solid;
+}
+
+.update-btn{
+  background: greenyellow;
+  padding: 2px;
+  margin: 8px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  
+  border: 2px solid;
+}
+.pageHeading{
+  padding-left: 30px;
+  text-align: left;
+  margin-top: 0;
+  font-size: x-large;
+}
+
+.productList ul li{
+  background-color: aqua;
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+  margin: 0;
+  font-size: x-large;
+  font-weight: 5px;
+}
+.p-block{
+  display: inline-flex;
+}
+
+.homeimg{
+  align-items: center;
+ 
+}
+.homeimage{
+  height: 200px;
+  padding: 200px;
+  padding-left: 500px;
+  width: 200px;
+  align-items: center;
+  
+}
+
+.registerimage{
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 115px;
+  width: 100px;
+  align-items: center;
+}
+
+.icon{
+  height: 35px;
+  width: 35px;
+  padding: 40px;
+
+}
+
+.icontitle{
+ align-items: center;
+ 
+}
